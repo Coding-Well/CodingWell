@@ -1,0 +1,15 @@
+{
+  "name": "CodingWellServer",
+  "version": "0.0.1",
+  "description": "Server for CodingWell",
+  "main": "index.js",
+  "author": "daoyi7",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.13.3"
+  }
+}
