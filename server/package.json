@@ -3,13 +3,19 @@
   "version": "0.0.1",
   "description": "Server for CodingWell",
   "main": "index.js",
-  "author": "daoyi7",
+  "author": "daoyi7,GevilEsen",
   "license": "MIT",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "crypto": "^1.0.1",
     "express": "^4.16.2",
-    "nodemon": "^1.13.3"
+    "morgan": "^1.9.0",
+    "nodemon": "^1.13.3",
+    "querystring": "^0.2.0",
+    "request": "^2.83.0",
+    "serve-favicon": "^2.4.5"
   }
 }
