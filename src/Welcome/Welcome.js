@@ -1,26 +1,25 @@
-import React, { Component } from 'react';
-import './App.css';
-import { setInterval } from 'timers';
+import React, { Component } from 'react'
+import '../static/welcome.css'
 
-class App extends Component {
+export default class Welcome extends Component {
   constructor(props){
-    super(props);
+    super(props)
     this.state={
       opacity:0.0
     }
   }
   componentDidMount(e){
-    let tmd=this.state.opacity;
-    
+    let tmd=this.state.opacity
+
     setInterval(function(){
-      tmd+=0.05;
+      tmd+=0.05
       if(tmd>1){
-        tmd=0;
+        tmd=0
       }
-      this.setState({opacity:tmd});
-    }.bind(this),65);
+      this.setState({opacity:tmd})
+    }.bind(this),65)
   }
-  render() {
+  render () {
     const filterStyle = {
       position: 'fixed',
       top: 0,
@@ -32,15 +31,13 @@ class App extends Component {
     }
 
     return (
-      <div className="App">
+      <div className="welcome">
         <div className="filter" style={filterStyle}></div>
         <div className="container" style={{opacity:this.state.opacity}}>
           <h2>Coming Soon</h2>
           <p>享受开发的过程</p>
         </div>
       </div>
-    );
+    )
   }
 }
-
-export default App;

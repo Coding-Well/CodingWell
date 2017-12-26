@@ -1,4 +1,4 @@
-.App {
+.welcome {
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  background: url('./static/bg.gif');
+  background: url('./bg.gif');
   background-size: cover;
 }
 
