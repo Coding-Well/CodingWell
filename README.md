@@ -25,7 +25,7 @@ CodingWell/
    │   │
    |   |——HttpCommunication.js   * Http通信模块
    |   |——sys2db.js              * middleware通信数据层
-   │   │──index.js               * 后端 node 服务启动文件
+   │   └──index.js               * 后端 node 服务启动文件
    │
    ├──src/
    │   │
